@@ -1,0 +1,33 @@
+Package: ggsegLobes
+Title: Lobar Parcellation Atlas for the 'ggsegverse' Ecosystem
+Version: 0.0.1
+Authors@R:
+    person("Giuseppe", "Barisano",
+           email = "barisano@stanford.edu",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5598-1369"))
+Description: Lobar cortical parcellation (frontal, parietal, temporal,
+    occipital, insula, per hemisphere) derived from the Desikan-Killiany
+    atlas by dissolving its cortical regions into lobes. Provided as a
+    'ggseg_atlas' object for use with 'ggseg'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 3.5)
+Imports:
+    ggseg.formats
+Suggests:
+    ggseg,
+    ggseg3d,
+    ggplot2,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Remotes:
+    ggsegverse/ggseg
+URL: https://github.com/gbarisano/ggsegLobes
+BugReports: https://github.com/gbarisano/ggsegLobes/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
+Config/Needs/website: ggsegverse/ggseg.docs
